@@ -1,5 +1,6 @@
 # Redis
 - First created By KYG at 2022-12-27
+- Second Modified By KYG at 2022-12-27
 
 Redis란? 막상 물어본다면 뭐라 대답해야할까.. 음.. 메모리 DB? 가볍기 때문에 많은 양을 사용한다?
 
@@ -9,6 +10,27 @@ Redis란? 막상 물어본다면 뭐라 대답해야할까.. 음.. 메모리 DB?
 - Key, Value 구조의 비정형 데이터를 저장하고 관리하기 위한 오픈 소스 기반의 비관계형 데이터 베이스 관리 시스템 (DBMS)입니다.
 데이터베이스, 캐시, 메세지 브로커로 사용되며 인메모리 데이터 구조를 가진 저장소입니다.
 
+![](../../../../../../../../../var/folders/py/mt1_j5_j7pzb4jcv7tm58bfr0000gn/T/TemporaryItems/NSIRD_screencaptureui_Rxmnzu/스크린샷 2023-01-01 오전 12.58.51.png)
+
+
+
+![](../../../../../../../../../var/folders/py/mt1_j5_j7pzb4jcv7tm58bfr0000gn/T/TemporaryItems/NSIRD_screencaptureui_dHIJIM/스크린샷 2023-01-01 오전 12.59.18.png)
+- NoSQL로서 Key-Value 타입의 저장소인 레디스(Redis, Remote Dictionary Server)의 주요 특징은 아래와 같습니다.
+- 영속성을 지원하는 인메모리 데이터 저장소
+- 읽기 성능 증대를 위한 서버 측 복제를 지원
+- 쓰기 성능 증대를 위한 클라이언트 측 샤딩(Sharding) 지원
+- 다양한 서비스에서 사용되며 검증된 기술
+- 문자열, 리스트, 해시, 셋, 정렬된 셋과 같은 다양한 데이터형을 지원. 메모리 저장소임에도 불구하고 많은 데이터형을 지원하므로 다양한 기능을 구현
+
+# Redis 영속성
+- 레디스는 지속성을 보장하기 위해 데이터를 DISK에 저장할 수 있습니다. 서버가 내려가더라도 DISK에 저장된 데이터를 읽어서 메모리에 로딩을 합니다.
+- 데이터를 DISK에 저장하는 방식은 크게 두 가지 방식이 있습니다.
+
+RDB(Snapshotting) 방식
+- 순간적으로 메모리에 있는 내용을 DISK에 전체를 옮겨 담는 방식
+
+- AOF (Append On File) 방식
+- Redis의 모든 write/update 연산 자체를 모두 log 파일에 기록하는 형태
 
 # 궁극적인 이유
 Mysql, Oracle, Mssql, Tibero등 상용화된 데이터베이스가 있는데 굳이 Redis를 사용하는 이유는 무엇일까?
