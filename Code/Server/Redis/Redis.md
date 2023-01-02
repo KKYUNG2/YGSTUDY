@@ -1,6 +1,6 @@
 # Redis
 - First created By KYG at 2022-12-27
-- Second Modified By KYG at 2022-12-27
+- Second Modified By KYG at 2023-01-02
 
 Redis란? 막상 물어본다면 뭐라 대답해야할까.. 음.. 메모리 DB? 가볍기 때문에 많은 양을 사용한다?
 
