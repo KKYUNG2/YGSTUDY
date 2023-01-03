@@ -17,6 +17,16 @@
 - Local quorum cluster, 또한 싱글 노드 클러스터로 불리운다
 - Single Quorum Device Cluster
 
+# 클러스터 구성의 스토리지 소유 방법
+
+1. 공유 스토리지
+- 여러대의 서버가 공유하는 스토리지를 마련하여 데이터의 무결성을 확보, 확장성이 높아서 대규모 시스템에 적합하다.
+
+2. 리플리케이션(데이터 미러 구성)
+- 스토리지를 완전히 똑같은 내용으로 복제(리플리케이션)하여 데이터의 무결성을 확보한다.
+- 저가로 구축할 수 있어서 소규모 시스템에 적합하다.
 
 
-- 출처 : https://allpartner.tistory.com/11
+출처 
+- https://allpartner.tistory.com/11
+- https://coding-hyeok.tistory.com/44
