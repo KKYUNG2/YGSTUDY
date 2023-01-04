@@ -1,5 +1,4 @@
 # Rest
-
 - 자원을 이름으로 구분하여 해당 자원의 상태를 주고 받는 모든 것을 의미합니다.
    - 즉, 자원의 표현에 의한 상태 전달을 말합니다.
   
@@ -15,3 +14,6 @@
 # Restful하지 못한 경우
 - CRUD 기능을 모두 POST로만 처리하는 API
 - 라우트(route)에 resource, id 외의 정보가 들어가는 경우(/books/updateName)
+
+
+# https://aws.amazon.com/ko/what-is/restful-api/
