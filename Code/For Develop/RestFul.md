@@ -16,4 +16,5 @@
 - 라우트(route)에 resource, id 외의 정보가 들어가는 경우(/books/updateName)
 
 
+출처
 # https://aws.amazon.com/ko/what-is/restful-api/
