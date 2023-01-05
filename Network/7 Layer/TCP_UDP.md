@@ -8,6 +8,8 @@
 되었다는 것을 알 수 있다.
 - 양쪽 모두 상대편에 대한 초기 순차일련번호를 얻을 수 있도록 한다.
 
+![](../../../../../../../../var/folders/py/mt1_j5_j7pzb4jcv7tm58bfr0000gn/T/TemporaryItems/NSIRD_screencaptureui_fpCuRU/스크린샷 2023-01-06 오전 12.36.10.png)
+
 # 소켓 종류
 
 스트림(TCP)
